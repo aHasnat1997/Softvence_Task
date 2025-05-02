@@ -56,7 +56,7 @@ export default function Navigation() {
         />
       </div>
 
-      <ul className={`w-1/2 fixed top-0 bottom-0 left-0 bg-white flex flex-col gap-[20px] px-4 py-8 duration-500 ${open ? 'scale-x-100' : 'scale-x-0'}`}>
+      <ul className={`w-1/2 fixed top-0 bottom-0 left-0 z-50 bg-white flex flex-col gap-[20px] px-4 py-8 duration-500 ${open ? 'scale-x-100' : 'scale-x-0'}`}>
         <Button
           title={<Image
             src={cross}
