@@ -13,17 +13,20 @@ import "./globals.css";
 
 const manrope = Manrope({
   weight: ['200', '300', '400', '500', '600', '700', '800'],
-  variable: "--font-manrope"
+  variable: "--font-manrope",
+  subsets: ['latin'], // ✅ Added
 });
 
 const poppins = Poppins({
   weight: ['200', '400', '600'],
-  variable: '--font-poppins'
+  variable: '--font-poppins',
+  subsets: ['latin'],
 });
 
 const questrial = Questrial({
   weight: ['400'],
-  variable: '--font-questrial'
+  variable: '--font-questrial',
+  subsets: ['latin'],
 });
 
 const geist = Geist({
@@ -33,18 +36,22 @@ const geist = Geist({
 
 const lato = Lato({
   weight: ['100', '300', '400', '700', '900'],
-  variable: "--font-lato"
+  variable: "--font-lato",
+  subsets: ['latin'],
 });
 
 const inter = Inter({
   weight: ['200', '400', '700', '900'],
-  variable: "--font-inter"
+  variable: "--font-inter",
+  subsets: ['latin'],
 });
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ['200', '400', '700'],
-  variable: "--font-plusJakartaSans"
+  variable: "--font-plusJakartaSans",
+  subsets: ['latin'],
 });
+
 
 export const metadata: Metadata = {
   title: "Welcome to AI Coach",
